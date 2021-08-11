@@ -24,8 +24,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 ## Inscreen Fingerprint HAL
 TARGET_HAVE_FOD := true
 
-## Inherit from d1 device
-$(call inherit-product, device/samsung/d1/device.mk)
+## Inherit from d1x device
+$(call inherit-product, device/samsung/d1x/device.mk)
 
 ## Boot Animation
 TARGET_BOOTANIMATION_HALF_RES := true
@@ -39,10 +39,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_d1
-PRODUCT_DEVICE := d1
+PRODUCT_NAME := lineage_d1x
+PRODUCT_DEVICE := d1x
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-N970F
+PRODUCT_MODEL := SM-N971N
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
