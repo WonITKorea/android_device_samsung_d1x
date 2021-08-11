@@ -18,7 +18,7 @@
 $(call inherit-product, device/samsung/exynos9820-common/common.mk)
 
 # Inherit proprietary files
-$(call inherit-product, vendor/samsung/d1/d1-vendor.mk)
+$(call inherit-product, vendor/samsung/d1x/d1x-vendor.mk)
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
